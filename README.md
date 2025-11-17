@@ -131,16 +131,21 @@ Softmax Output (5 Classes)
 pip install -r requirements.txt
 ```
 ### Train the Model
+```bash
 python train.py
-
+```
 ### Make Predictions
+```bash
 python predict.py --image path/to/image.jpg
-
+````
 ### Convert to TensorFlow Lite
+```bash
 python convert_model.py
-
+```
 ### Evaluate
+```bash
 python evaluate.py
+```
 
 ## 📁 8. Directory Structure
 ### 📦 diabetic-retinopathy-detection
